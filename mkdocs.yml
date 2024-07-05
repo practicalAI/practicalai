@@ -12,7 +12,10 @@ nav:
     - predict: madewithml/predict.md
     - serve: madewithml/serve.md
     - utils: madewithml/utils.md
-theme: readthedocs
+theme:
+  name: readthedocs
+  custom_dir: overrides
+
 plugins:
   - mkdocstrings
 watch:
